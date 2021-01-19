@@ -40,6 +40,9 @@ var seattle = {
   }
 seattle.array = seattle.generateCust();
 
+
+
+
 var tokyo = {
   name: 'Tokyo',
   minCust: 3,
@@ -70,11 +73,11 @@ var tokyo = {
     
   }
 tokyo.array = tokyo.generateCust();
-console.log(seattle.array);
+// console.log(seattle.array);
 
 var cityName = ['seattle', 'tokyo' ]
 
-function printList(cityName, i){
+// function printList(cityName, i){
   console.log(cityName)
   var divElement = document.getElementById('shops');
 
@@ -92,12 +95,12 @@ function printList(cityName, i){
     ulElement.appendChild(liElement);
     liElement.textContent = hrsOfOp[i] + ':' + seattle.array[i] +'cookies '
 }
-}
+ 
 
-for (var i = 0; i< cityName.length; i++){
-  printList(cityName[i], i)
+// for (var i = 0; i< cityName.length; i++){
+//   printList(cityName[i], i)
 
-}
+
 //var liElement = document.createElement('li');
 //ulElement.appendChild(liElement);
 
