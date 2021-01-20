@@ -90,10 +90,10 @@ var lima = new CityStore('Lima', 2, 16, 4.6,);
 lima.genRndCust();
 lima.printTable();
 
-var tableFoot = document.createElement('tfoot');
-var footRow = document.createElement('tr');
-table.appendChild(tableFoot);
-tableFoot.appendChild(footRow);
+// var tableFoot = document.createElement('tfoot');
+// var footRow = document.createElement('tr');
+// table.appendChild(tableFoot);
+// tableFoot.appendChild(footRow);
 
 
 
