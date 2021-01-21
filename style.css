@@ -63,7 +63,8 @@ footer{
 table {
   border: thin solid black;
 }
-
+tfoot tr  {  border: thin solid black;
+}
 th {  border: thin solid black;
 }
 

@@ -90,21 +90,27 @@ var lima = new CityStore('Lima', 2, 16, 4.6,);
 lima.genRndCust();
 lima.printTable();
 
+var tableFoot = document.createElement('tfoot');
+table.appendChild(tableFoot);
+var footRow = document.createElement('tr');
+footRow.textContent = "Totals"
+tableFoot.appendChild(footRow);
 
+var hourlyTotals = 0;
+for (var i =0; i < hrsOfOp.length; i++){
+hourlyTotals = 0;
 
-// var hourlyTotals = 0;
-// for (var = i; i < hrsOfOp; i++){}
+hourlyTotals = seattle.array[i]+tokyo.array[i]+dubai.array[i]+paris.array[i]+lima.array[i];
+var footCell = document.createElement('td');
 
+footCell.textContent = hourlyTotals;
+console.log(hourlyTotals);
+footRow.appendChild(footCell);
 
-// var tableFoot = document.createElement('tfoot');
-// var footRow = document.createElement('tr');
-// table.appendChild(tableFoot);
-// tableFoot.appendChild(footRow);
+}
 
-
-
-
-
+//var footRow = document.createElement('tr');
+//table.appendChild(tableFoot);
 // console.log(seattle);
 // console.log(seattle.array);
 
