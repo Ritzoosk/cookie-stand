@@ -90,6 +90,12 @@ var lima = new CityStore('Lima', 2, 16, 4.6,);
 lima.genRndCust();
 lima.printTable();
 
+
+
+// var hourlyTotals = 0;
+// for (var = i; i < hrsOfOp; i++){}
+
+
 // var tableFoot = document.createElement('tfoot');
 // var footRow = document.createElement('tr');
 // table.appendChild(tableFoot);
