@@ -1,5 +1,6 @@
 /* INDEX CSS */
 body{
+  margin: auto;
   background-color: rgb(157, 248, 248);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -56,12 +57,19 @@ p{
 footer{
   text-align: center;
 }
+ form {
+   margin:auto;
+ }
 
-
-
+fieldset{
+  text-align: right;
+  width: 300px;
+  margin:20px;
+}
 /* SALES PAGE CSS */
 table {
   border: thin solid black;
+margin: 20px ;
 }
 tfoot tr  {  border: thin solid black;
 }
