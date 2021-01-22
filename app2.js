@@ -9,21 +9,28 @@ table.appendChild(tableHead);
 var tableBody = document.createElement('tbody');
 table.appendChild(tableBody);
 
+
 //Global Hours array + total//
 var standArray = [];
 var hrsOfOp = ['6am','7am','8am', '9am', '10am', '11am', '12am','1pm','2pm', '3pm', '4pm', '5pm', '6pm', '7pm', 'Total'];
 
 //TABLE HEADER//
+
 var tableTopLine = document.createElement('th');
 tableTopLine.textContent = " ";
+
   tableHead.appendChild(tableTopLine);
+
 for (var i=0; i< hrsOfOp.length; i++){
   var tableTopLine = document.createElement('th');
   tableTopLine.textContent = hrsOfOp[i];
   tableHead.appendChild(tableTopLine);
 }
+// elementTarget.appendChild(tableHead);
+
 
 //City data storing CONSTRUCTOR//
+
 function CityStore(name, minCust, maxCust, avgCk,){
   this.name = name;
   this.minCust = minCust;
@@ -36,6 +43,7 @@ function CityStore(name, minCust, maxCust, avgCk,){
 }
 
 //Method for rndm # (and total cookies @[15]) generation store in "name.array"//
+
 CityStore.prototype.genRndCust = function(){
   var ckTtl = 0;
   for (var i = 0; i < hrsOfOp.length - 1 ; i++){ 
@@ -47,6 +55,7 @@ CityStore.prototype.genRndCust = function(){
 }
 
 //Print data to table//
+
 CityStore.prototype.printTable = function(){
   var row = document.createElement('tr')
   var nameCell = document.createElement('td')
@@ -63,12 +72,12 @@ CityStore.prototype.printTable = function(){
 }
 
 //Construct OBJs, run random # cook-per-hour array with cookie ttl at end//
+
 var seattle = new CityStore('Seattle', 23, 65, 6.3,);
 var tokyo = new CityStore('Tokyo', 3, 24, 1.2,);
 var dubai = new CityStore('Dubai', 11, 38, 3.7,);
 var paris = new CityStore('Paris', 20, 38, 2.3,);
 var lima = new CityStore('Lima', 2, 16, 4.6,);
-
 var tableFoot = document.createElement('tfoot');
   tableFoot.setAttribute("id", "table-footer"); 
   table.appendChild(tableFoot);
