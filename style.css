@@ -1,15 +1,31 @@
 /* INDEX CSS */
 body{
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-grow: inherit;
   background-color: rgb(157, 248, 248);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+header {
+  color: darksalmon;
+  background-color: rgb(48, 138, 139);
+  border-radius: 25px;
+}
 header img{
+  
 width : 400px;
 content:  center;
 }
+#hero{
+  color: rgb(27, 89, 90);;
 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  text-align:  center;
+
+}
 header h1{
   text-align:  center;
 }
@@ -19,26 +35,50 @@ nav{
 }
 
 #fam{
+  
   width: 800px;
 }
 
 p{
-  width: 800px;
+  /* text-align:  center;
+justify-content: center; */
+  /* width: 800px; */
 }
+.addresses{
+  color: rgb(27, 89, 90);;
 
+  background-color: rgb(202, 197, 125);
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
 .addresses img{
+  
   display: inline;
   float: right;
-  margin-top: 15%;
+  justify-content: left;
+  /* margin-top: 15%; */
 
 }
+#cutter{
+  background-color: rgb(48, 138, 139);
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
 
+}
 #cutter h2{
+  color: darksalmon;
+
   text-align: center;
 
 }
 #cutter section{
-  
+
   display: inline;
   float: left;
 }
@@ -51,31 +91,56 @@ p{
 #cutter img{
   display:grid 3;
 }
+
  #shirt{
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  background-color: rgb(202, 197, 125);
    text-align: center;
  }
 footer{
   text-align: center;
 }
  form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
    margin:auto;
  }
-
+/* SALES PAGE CSS */
 fieldset{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  background-color: rgb(48, 138, 139);
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+
   text-align: right;
   width: 300px;
-  margin:20px;
+  /* margin:20px; */
 }
-/* SALES PAGE CSS */
+
+
 table {
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  background-color: rgb(202, 197, 125);
+
   border: thin solid black;
 margin: 20px ;
 }
-tfoot tr  {  border: thin solid black;
-}
+
 th {  border: thin solid black;
 }
 
 td {  border: thin solid black;
 }
+
 

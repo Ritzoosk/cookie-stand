@@ -101,9 +101,10 @@ function footerMaker(){
   var targetOldFoot = document.getElementById('table-footer');
   targetOldFoot.parentNode.removeChild(targetOldFoot);
   var tableFoot = document.createElement('tfoot');
-  tableFoot.setAttribute("id", "table-footer"); 
   table.appendChild(tableFoot);
   var footRow = document.createElement('tr');
+    footRow.setAttribute("id", "Totals"); 
+
   footRow.textContent = "Totals"
   tableFoot.appendChild(footRow);
   var hourlyTotals = 0;
