@@ -9,6 +9,8 @@ body{
 }
 
 header {
+  text-align:  center;
+
   color: darksalmon;
   background-color: rgb(48, 138, 139);
   border-radius: 25px;
