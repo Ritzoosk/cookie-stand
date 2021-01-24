@@ -1,5 +1,24 @@
 'use strict'
 
+
+
+
+
+
+
+//This is not used, couldnt bear to delete since i'll never get this 4 hours of my like back XD//
+
+
+
+
+
+
+
+
+
+
+
+
 // ck = "cookie"
 
 
